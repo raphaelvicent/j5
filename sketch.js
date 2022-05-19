@@ -17,16 +17,16 @@ function setup() {
 //         ySpeed *= -1;
 //     }
 // }
- function keyPressed() {
-     if (keyCode === LEFT_ARROW) {
-       refY = refY + 5;
-     } else if (keyCode === RIGHT_ARROW) {
-        refY = refY - 5;
-     }
+function keyPressed() {
+    if (keyCode === LEFT_ARROW) {
+            refY = refY + 5;
+        } else if (keyCode === RIGHT_ARROW) {
+            refY = refY - 5;
+    }
 }
 
 function draw() {
-    background(200);
+    background(200, 200, 200);
     noStroke();
     rect(500, 0, 3, 500);
 
